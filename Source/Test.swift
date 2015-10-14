@@ -1,7 +1,7 @@
 import Foundation
 
-struct Test {
-    static func isRunning() -> Bool {
+@objc public class Test: NSObject {
+    public static func isRunning() -> Bool {
         let enviroment = NSProcessInfo.processInfo().environment
         let serviceName = enviroment["XPC_SERVICE_NAME"]
         let injectBundle = enviroment["XCInjectBundle"]
