@@ -2,9 +2,13 @@ import UIKit
 import XCTest
 
 class Tests: XCTestCase {
+    func testIsRunning() {
+        var isRunning = false
 
-  func testFailing() {
-    let ofCourse = true
-    XCTAssertEqual(ofCourse, false)
-  }
+        if Test.isRunning() {
+            isRunning = true
+        }
+
+        XCTAssertTrue(isRunning)
+    }
 }
