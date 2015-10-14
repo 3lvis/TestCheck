@@ -8,7 +8,11 @@
 ## Usage
 
 ```swift
-<API>
+import TestCheck
+
+if Test.isRunning() {
+    // Do something
+}
 ```
 
 ## Installation
