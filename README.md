@@ -7,6 +7,8 @@
 
 ## Usage
 
+`TestCheck` includes a simple method to check wheter your on testing mode or not.
+
 ```swift
 import TestCheck
 
