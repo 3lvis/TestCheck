@@ -1,6 +1,10 @@
 import Foundation
 
 @objc public class Test: NSObject {
+    /**
+    Method to check wheter your on testing mode or not.
+    - returns: A Bool, `true` if you're on testing mode, `false` if you're not.
+    */
     public static func isRunning() -> Bool {
         let enviroment = NSProcessInfo.processInfo().environment
         let serviceName = enviroment["XPC_SERVICE_NAME"]
