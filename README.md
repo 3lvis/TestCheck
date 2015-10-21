@@ -1,6 +1,5 @@
 # TestCheck
 
-[![CI Status](http://img.shields.io/travis/3lvis/TestCheck.svg?style=flat)](https://travis-ci.org/3lvis/TestCheck)
 [![Version](https://img.shields.io/cocoapods/v/TestCheck.svg?style=flat)](http://cocoadocs.org/docsets/TestCheck)
 [![License](https://img.shields.io/cocoapods/l/TestCheck.svg?style=flat)](http://cocoadocs.org/docsets/TestCheck)
 [![Platform](https://img.shields.io/cocoapods/p/TestCheck.svg?style=flat)](http://cocoadocs.org/docsets/TestCheck)
