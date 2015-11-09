@@ -7,7 +7,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
-        if Test.isRunning() {
+        if TestCheck.isTesting() {
             print("Testing mode")
         } else {
             print("Not testing mode")

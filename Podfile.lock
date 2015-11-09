@@ -1,5 +1,5 @@
 PODS:
-  - TestCheck (0.3.0)
+  - TestCheck (0.2.1)
 
 DEPENDENCIES:
   - TestCheck (from `.`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  TestCheck: 42c1343664986c0cbfaa20a62622d6f6fb70a407
+  TestCheck: 70d6783b0e42a214ad2ca9a27f026f74244ad364
 
 COCOAPODS: 0.39.0
