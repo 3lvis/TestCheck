@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "TestCheck"
   s.summary          = "Check for Xcode running unit tests"
-  s.version          = "0.2.1"
+  s.version          = "0.3.0"
   s.homepage         = "https://github.com/3lvis/TestCheck"
   s.license          = 'MIT'
   s.author           = { "Elvis Nuñez" => "elvisnunez@me.com" }
