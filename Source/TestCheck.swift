@@ -5,7 +5,7 @@ import Foundation
     Method to check wheter your on testing mode or not.
     - returns: A Bool, `true` if you're on testing mode, `false` if you're not.
     */
-    public static func isTesting() -> Bool {
+    public static let isTesting: Bool = {
         let enviroment = NSProcessInfo.processInfo().environment
         let serviceName = enviroment["XPC_SERVICE_NAME"]
         let injectBundle = enviroment["XCInjectBundle"]
@@ -24,5 +24,5 @@ import Foundation
         }
 
         return isRunning
-    }
+    }()
 }

@@ -3,6 +3,6 @@ import XCTest
 
 class Tests: XCTestCase {
     func testIsRunning() {
-        XCTAssertTrue(TestCheck.isTesting())
+        XCTAssertTrue(TestCheck.isTesting)
     }
 }
