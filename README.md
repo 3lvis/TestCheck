@@ -11,7 +11,7 @@
 ```swift
 import TestCheck
 
-if Test.isRunning() {
+if TestCheck.isTesting() {
     // Do something
 }
 ```
