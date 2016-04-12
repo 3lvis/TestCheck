@@ -13,12 +13,6 @@ extension AppDelegate: UIApplicationDelegate {
         window.rootViewController = RootController()
         window.makeKeyAndVisible()
 
-        if TestCheck.isTesting {
-            print("Testing mode")
-        } else {
-            print("Not testing mode")
-        }
-
         return true
     }
 }
