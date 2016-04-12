@@ -12,6 +12,9 @@ class iOSUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func test() {
+        let elementsQuery = XCUIApplication().childrenMatchingType(.Window).elementBoundByIndex(0).otherElements
+        let textField = elementsQuery.childrenMatchingType(.TextField).element
+        XCTAssertEqual(textField.value! as? String, "Testing enabled")
     }
 }
