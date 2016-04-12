@@ -241,7 +241,6 @@
 					};
 					149974171CBCEC52007DB597 = {
 						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 149974041CBCEC52007DB597;
 					};
 					149974221CBCEC52007DB597 = {
 						CreatedOnToolsVersion = 7.3;
@@ -466,7 +465,6 @@
 		1499742E1CBCEC52007DB597 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -475,14 +473,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.iOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
 			};
 			name = Debug;
 		};
 		1499742F1CBCEC52007DB597 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -491,7 +487,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.iOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
 			};
 			name = Release;
 		};
