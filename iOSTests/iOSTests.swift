@@ -1,7 +1,7 @@
-import UIKit
 import XCTest
+@testable import iOS
 
-class Tests: XCTestCase {
+class iOSTests: XCTestCase {
     func testIsRunning() {
         XCTAssertTrue(TestCheck.isTesting)
     }
