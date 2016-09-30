@@ -31,4 +31,4 @@ pod 'TestCheck'
 
 ## Author
 
-Elvis Nuñez, [@3lvis](https://twitter.com/3lvis)
+SyncDB, [@SyncDB](https://twitter.com/Sync_DB)
