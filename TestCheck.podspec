@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Elvis Nuñez" => "elvisnunez@me.com" }
   s.source           = { :git => "https://github.com/3lvis/TestCheck.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/Sync_DB'
+  s.social_media_url = 'https://twitter.com/3lvis'
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
   s.watchos.deployment_target = '2.0'
